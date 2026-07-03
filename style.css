@@ -1,0 +1,28 @@
+li:hover
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-weight: underline;
+}
+li
+{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+}
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    box-shadow: 0 4px 8px rgba(1201, 152, 223, 0.1);
+    padding: 20px;
+}
+.name
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 20px;
+}
