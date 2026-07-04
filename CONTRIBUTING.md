@@ -1,3 +1,21 @@
+#!/bin/bash
+
+# Simple Interest Calculator
+
+echo "Simple Interest Calculator"
+
+echo -n "Enter Principal Amount: "
+read principal
+
+echo -n "Enter Rate of Interest: "
+read rate
+
+echo -n "Enter Time Period (in years): "
+read time
+
+simple_interest=$((principal * rate * time / 100))
+
+echo "Simple Interest is: $simple_interest"
 # Contributing
 
 Thank you for your interest in contributing to this project. We appreciate the time and effort of everyone who helps improve this repository. Contributions from the community play an important role in maintaining and enhancing the quality of the project.
@@ -48,3 +66,7 @@ All pull requests will be reviewed by the project maintainers. Feedback may be p
 By participating in this project, you agree to follow the project's Code of Conduct and maintain a respectful, collaborative, and inclusive environment for everyone.
 
 Thank you for helping make this project better. Your contributions are greatly appreciated.
+
+
+
+
